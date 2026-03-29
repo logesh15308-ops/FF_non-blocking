@@ -261,5 +261,9 @@ SIMULATION OUTPUT
 <img width="1725" height="935" alt="image" src="https://github.com/user-attachments/assets/b80bbf43-191d-4970-9dc3-b14ad9e331b8" />
 
 
+
+
+
+
 # RESULT
 All flip-flops (SR, D, JK, T) were successfully simulated using Non blocking statements in Verilog HDL. The outputs matched the expected truth table values, demonstrating correct sequential behavior.
