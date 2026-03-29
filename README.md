@@ -198,18 +198,13 @@ $finish;
 end
 always #5 clk= ~clk;
 endmodule
-
 ```
-
 SIMULATION OUTPUT
-
 
 <img width="1718" height="910" alt="image" src="https://github.com/user-attachments/assets/d1fd7d42-21dd-4676-a41d-134cd98720a3" />
 
-
 T Flip-Flop (Non Blocking)
 ```
-
 timescale 1ns / 1ps
 
 module t_ff(T,clk,rst,Q);
@@ -225,13 +220,10 @@ else
     Q <= ~Q;
 end
 endmodule
-
 ```
 T Flip-Flop Test bench
 ```
-
 timescale 1ns / 1ps
-
 module t_ff_tb;
 reg T,rst,clk;
 wire Q;
@@ -252,12 +244,8 @@ $finish;
 end
 always #5 clk = ~clk;
 endmodule
-
 ```
-
 SIMULATION OUTPUT
-
-
 <img width="1725" height="935" alt="image" src="https://github.com/user-attachments/assets/b80bbf43-191d-4970-9dc3-b14ad9e331b8" />
 
 
